@@ -48,7 +48,7 @@
         
         {% for marker in markerList %}
           addMarker(map, '{{marker.title}}', {lat: {{marker.latitude}}, lng: {{marker.longitude}} });
-        {% endfor %}    
+        {% endfor %}
       }
 
       function addMarker(map, title, location){
